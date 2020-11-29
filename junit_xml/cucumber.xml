@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.490469">
+    <testcase classname="ind App Globalization samps Automation" name="ind App Globalization samps Automation" time="21.490469">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//button[text()='Sign In']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ASHOK', ip: '192.168.43.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy19.click(Unknown Source)&#13;&#10;&#9;at com.ind.qa.pages.LoginPage.Login(LoginPage.java:44)&#13;&#10;&#9;at com.ind.qa.stepDefinitions.Globalization_Test_Ind_SD.script_logs_into_the_application(Globalization_Test_Ind_SD.java:46)&#13;&#10;&#9;at ✽.When Script logs into the application(src/main/java/com/ind/qa/features/Ind_Globalization.Feature:6)&#13;&#10;"><![CDATA[Given Script opens browser and navigates to application.....................passed
+When Script logs into the application.......................................failed
+Then Script clicks on menu and clicks on search preferences and select desired interface language and validtes text in homepage for the selected language.skipped
+Then Script logouts from the application and closes the browser.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//button[text()='Sign In']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ASHOK', ip: '192.168.43.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.ind.qa.pages.LoginPage.Login(LoginPage.java:44)
+	at com.ind.qa.stepDefinitions.Globalization_Test_Ind_SD.script_logs_into_the_application(Globalization_Test_Ind_SD.java:46)
+	at ✽.When Script logs into the application(src/main/java/com/ind/qa/features/Ind_Globalization.Feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
